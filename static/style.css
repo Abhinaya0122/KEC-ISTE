@@ -603,10 +603,13 @@ header {
     
     .main h1 {
         font-size: 36px;
-        top: 30%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-size: 130px;
+    }
+    .main p{
+
     }
 }
 
