@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, jsonify, url_for
-
+from urllib.parse import quote as url_quote
 app = Flask(__name__)
 
 @app.route('/')
@@ -19,5 +19,5 @@ def event():
     return render_template('timeline.html')
 
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
