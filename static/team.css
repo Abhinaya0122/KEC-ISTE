@@ -13,7 +13,8 @@ body{
     align-items: center;
     min-height: 100vh;
     /* background: #000000; */
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('https://wallpapercave.com/wp/1C6G3g0.jpg');
+    background: linear-gradient(to left, rgba(0,0,0,0.5)90%,rgba(0,0,0,0.5)90%), url('https://image.slidesdocs.com/responsive-images/background/night-dark-galaxy-star-nature-black-powerpoint-background_8b7446a2b3__960_540.jpg'); 
+
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
