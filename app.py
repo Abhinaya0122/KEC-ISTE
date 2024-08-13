@@ -18,6 +18,10 @@ def team():
 def event():
     return render_template('timeline.html')
 
+@app.route('/contact')
+def contact():
+    return render_template('contacts.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
